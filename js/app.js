@@ -11,12 +11,14 @@ if (user_points >= 75) {
 } else {
     console.log("Not enough points :(");
 }
+
 if (is_member === true && user_points >= 90) {
     console.log("thanks for subscribing and playing");
 }
 if (is_member === false || user_points < 10) {
     console.log("leave and stop playing");
 }
+
 if (user_name === "Dale") {
     console.log("welcome owner");
 } else {
